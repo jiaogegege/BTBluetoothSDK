@@ -891,7 +891,7 @@ typedef void(^CommandRetryFailureBlock)(CommandType commandType, BTError *error)
 - 负压信息：`PressureInfoModel`
 
 ## SDK结构和工作流程
-![模块结构图](SDK模块设计.png "SDK模块结构图")
+![模块结构图](Docs/SDK模块设计.png "SDK模块结构图")
 
 ### 工作流程
 `BTManager`是整个SDK的入口，`BTManager`被初始化的时候，同时初始化所有相关的Manager类型对象，包括：`BTBluetoothAdapter`、`BTTaskDispatcher`、`BTCommandContainer`、`BTCommandBuilder`、`BTDataParser`、`BTExceptionProcessor`、`BTLogRecorder`。  
