@@ -1,5 +1,5 @@
 # BTBluetoothSDK
-DaYue's Products iOS App Bluetooth SDK.
+iOS App Bluetooth SDK.
 
 #  BTBluetoothSDK用户手册
 ## 文件列表
